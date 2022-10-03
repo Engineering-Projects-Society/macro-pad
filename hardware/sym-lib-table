@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "SC09087")(type "KiCad")(uri "${KIPRJMOD}/lib/SC09087/SC09087.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/lib/RP2040/RP2040.kicad_sym")(options "")(descr ""))
 )
