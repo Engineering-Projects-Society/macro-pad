@@ -327,11 +327,11 @@
     (pad "B" thru_hole circle (at 0 5) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 24 "/R_{B}") (pinfunction "B") (pintype "passive") (tstamp 8c7b4b50-cd53-4a66-96e6-e4601a53e70e))
     (pad "C" thru_hole circle (at 0 2.5) (size 2 2) (drill 1) (layers *.Cu *.Mask)
-      (net 3 "+3V3") (pinfunction "C") (pintype "passive") (tstamp 9dbac179-a746-44cd-a352-e8b66490c6b8))
+      (net 2 "GND") (pinfunction "C") (pintype "passive") (tstamp 9dbac179-a746-44cd-a352-e8b66490c6b8))
     (pad "MP" thru_hole rect (at 7.5 8.1) (size 3.2 2) (drill oval 2.8 1.5) (layers *.Cu *.Mask) (tstamp 11930ccf-d8cd-4788-812a-27d91fe48124))
     (pad "MP" thru_hole rect (at 7.5 -3.1) (size 3.2 2) (drill oval 2.8 1.5) (layers *.Cu *.Mask) (tstamp a2edf819-ee0a-4f99-b0e6-3b0c2c1c8b51))
     (pad "S1" thru_hole circle (at 14.5 5) (size 2 2) (drill 1) (layers *.Cu *.Mask)
-      (net 3 "+3V3") (pinfunction "S1") (pintype "passive") (tstamp 58164dd4-6f8b-478c-b264-c57b60306339))
+      (net 2 "GND") (pinfunction "S1") (pintype "passive") (tstamp 58164dd4-6f8b-478c-b264-c57b60306339))
     (pad "S2" thru_hole circle (at 14.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 25 "/R_{BTN}") (pinfunction "S2") (pintype "passive") (tstamp a6dec3b0-5381-4b01-861e-ef9fbd3f080e))
     (model "${KICAD6_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.wrl"
@@ -1671,7 +1671,7 @@
     (pad "" np_thru_hole circle (at -7.62 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp 62257e17-866a-4cf0-9498-f7c64078db65))
     (pad "" np_thru_hole circle (at 2.54 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp cad08b08-c100-4d6d-9d42-f76f6d22c2d8))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 3 "+3V3") (pinfunction "1") (pintype "passive") (tstamp ea8e6527-038a-433a-b550-73c44e2bbe04))
+      (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp ea8e6527-038a-433a-b550-73c44e2bbe04))
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 26 "/SW_{1}") (pinfunction "2") (pintype "passive") (tstamp 30cbb42c-ecc3-47ad-bd76-21587a6c00e7))
     (model "${KICAD6_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
@@ -1889,7 +1889,7 @@
     (pad "" np_thru_hole circle (at 2.54 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp cad6a45f-21e5-4944-9fb2-9f1807c88b90))
     (pad "" np_thru_hole circle (at -7.62 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp e69a0100-636b-44a5-96f4-033b25d9833f))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 3 "+3V3") (pinfunction "1") (pintype "passive") (tstamp b7577bda-94bd-498e-a206-1d12599832d6))
+      (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp b7577bda-94bd-498e-a206-1d12599832d6))
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 28 "/SW_{3}") (pinfunction "2") (pintype "passive") (tstamp 76aad339-58a4-4481-abaf-8219b4a9af2a))
     (model "${KICAD6_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
@@ -1982,7 +1982,7 @@
     (pad "" np_thru_hole circle (at 2.54 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp aace7729-dccb-4a47-93bd-5d4d88d0f744))
     (pad "" np_thru_hole circle (at -7.62 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp e78e05f0-4bf5-4405-b2cc-2a5faa87fa46))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 3 "+3V3") (pinfunction "1") (pintype "passive") (tstamp 86b76744-cb54-4976-b18f-aedf981f79f0))
+      (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp 86b76744-cb54-4976-b18f-aedf981f79f0))
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 29 "/SW_{4}") (pinfunction "2") (pintype "passive") (tstamp 48afff73-bbcf-48a6-8bc7-6bfc451b1e1e))
     (model "${KICAD6_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
@@ -2117,7 +2117,7 @@
     (pad "" np_thru_hole circle (at -7.62 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp 9e6a40ba-e9c9-4931-8e69-f5e089758de8))
     (pad "" np_thru_hole circle (at -2.54 5.08) (size 4 4) (drill 4) (layers *.Cu *.Mask) (tstamp b655c9ad-1201-4966-9024-8f91a7c6380f))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 3 "+3V3") (pinfunction "1") (pintype "passive") (tstamp bc38a49a-3281-4c63-905a-6b991e31678c))
+      (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp bc38a49a-3281-4c63-905a-6b991e31678c))
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 27 "/SW_{2}") (pinfunction "2") (pintype "passive") (tstamp 662192c9-6565-4466-9074-8188c9bc2cbf))
     (model "${KICAD6_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
