@@ -2953,7 +2953,7 @@
     (property "Value" "IN-PI15TAT" (id 1) (at 72.39 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm" (id 2) (at 80.01 130.81 0)
+    (property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm" (id 2) (at 80.01 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" (id 3) (at 78.74 132.715 0)
@@ -3340,7 +3340,7 @@
   (symbol (lib_id "power:GND") (at 76.2 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 62c929bd-6f26-4578-bfff-98f3c42f1083)
-    (property "Reference" "#PWR?" (id 0) (at 76.2 91.44 0)
+    (property "Reference" "#PWR0102" (id 0) (at 76.2 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 76.2 90.17 0))
@@ -3387,7 +3387,7 @@
   (symbol (lib_id "power:GND") (at 104.14 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 71ca22fd-6f1e-4536-87f9-d0864b125d1d)
-    (property "Reference" "#PWR?" (id 0) (at 104.14 91.44 0)
+    (property "Reference" "#PWR0101" (id 0) (at 104.14 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 104.14 90.17 0))
@@ -3409,7 +3409,7 @@
     (property "Value" "IN-PI15TAT" (id 1) (at 43.18 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm" (id 2) (at 50.8 130.81 0)
+    (property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm" (id 2) (at 50.8 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" (id 3) (at 49.53 132.715 0)
@@ -3798,7 +3798,7 @@
     (property "Value" "IN-PI15TAT" (id 1) (at 72.39 160.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm" (id 2) (at 80.01 168.91 0)
+    (property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm" (id 2) (at 80.01 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" (id 3) (at 78.74 170.815 0)
@@ -3975,7 +3975,7 @@
     (property "Value" "IN-PI15TAT" (id 1) (at 43.18 160.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm" (id 2) (at 50.8 168.91 0)
+    (property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm" (id 2) (at 50.8 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf" (id 3) (at 49.53 170.815 0)
@@ -4220,11 +4220,11 @@
     (path "/c3427917-2fcc-4da9-950a-66a0b821fc50"
       (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
-    (path "/62c929bd-6f26-4578-bfff-98f3c42f1083"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/71ca22fd-6f1e-4536-87f9-d0864b125d1d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/62c929bd-6f26-4578-bfff-98f3c42f1083"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/d3290334-df8d-42fb-8f84-c8b579cd4c2d"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -4287,16 +4287,16 @@
       (reference "C20") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/730a4d99-f88d-41ed-9938-4e5443708e7b"
-      (reference "D1") (unit 1) (value "IN-PI15TAT") (footprint "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D1") (unit 1) (value "IN-PI15TAT") (footprint "LED_SMD:LED_SK6812_EC15_1.5x1.5mm")
     )
     (path "/02452c7e-d830-484b-b64b-2b3b9ee41336"
-      (reference "D2") (unit 1) (value "IN-PI15TAT") (footprint "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D2") (unit 1) (value "IN-PI15TAT") (footprint "LED_SMD:LED_SK6812_EC15_1.5x1.5mm")
     )
     (path "/c8178cb7-f2f1-4a6e-86dd-9889553ad2db"
-      (reference "D3") (unit 1) (value "IN-PI15TAT") (footprint "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D3") (unit 1) (value "IN-PI15TAT") (footprint "LED_SMD:LED_SK6812_EC15_1.5x1.5mm")
     )
     (path "/b720d4e0-282d-4058-ba67-1f35dd1733ac"
-      (reference "D4") (unit 1) (value "IN-PI15TAT") (footprint "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D4") (unit 1) (value "IN-PI15TAT") (footprint "LED_SMD:LED_SK6812_EC15_1.5x1.5mm")
     )
     (path "/e325433c-a087-465d-b143-a8822076c064"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11")
